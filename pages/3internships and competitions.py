@@ -87,4 +87,4 @@ st.write("""  + More to be added!
     """)
 
 st.divider()
-st.write("If you have any feedback or suggestions to improve AcademEase, head over to [our Contact Page](contact.py)")
+st.write("If you have any feedback or suggestions to improve AcademEase, head over to [our Contact Page](6contact.py)")
