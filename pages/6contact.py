@@ -24,7 +24,7 @@ def localcss(file_name):
     with open(file_name) as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-localcss("C:/Users/ilina/school app/pages/style/style.css"),
+localcss("style/style.css"),
 
 cform = """
 <form action="https://formsubmit.co/ilinamukherjee2020@gmail.com" method="POST">
