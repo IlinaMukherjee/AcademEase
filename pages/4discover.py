@@ -17,7 +17,7 @@ with st.container():
     with right_column:
 
 
-st.sidebar.success("Where would you like to go?")
+    st.sidebar.success("Where would you like to go?")
 
 
 
