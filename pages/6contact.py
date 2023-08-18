@@ -1,18 +1,11 @@
 import requests
 import streamlit as st
-from streamlit_lottie import st_lottie
+
 
 st.set_page_config(
     page_title="Contact | AcademEase"
 )
 st.divider()
-def load_lottie_url(url):
-    r = requests.get(url)
-    if r.status_code != 200:
-        return None
-    return r.json()
-
-lottie_file4 = load_lottie_url("https://lottie.host/6ef9f7a7-202b-4304-b817-5c2736c57ca0/Q8v3Mpe6Tr.json")
 
 
 
@@ -39,7 +32,7 @@ left_column, right_column = st.columns(2)
 with left_column:
     st.markdown(cform, unsafe_allow_html=True)
 with right_column:
-    st_lottie(lottie_file4, height=400, key="contact")
+
 st.write(" ")
 st.write(" ")
 st.write(" ")
