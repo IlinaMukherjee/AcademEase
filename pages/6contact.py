@@ -33,13 +33,4 @@ with left_column:
     st.markdown(cform, unsafe_allow_html=True)
 with right_column:
 
-st.write(" ")
-st.write(" ")
-st.write(" ")
-st.write(" ")
-st.write(" ")
-st.write(" ")
-st.write(" ")
-st.write(" ")
-st.write(" ")
-st.caption("Animation credits: LottieFiles")
+
