@@ -1,6 +1,5 @@
 import requests
 import streamlit as st
-from streamlit_lottie import st_lottie
 from PIL import Image
 
 st.set_page_config(
@@ -13,13 +12,6 @@ st.title("AcademEase 📖")
 st.sidebar.success("Where would you like to go?")
 
 
-def load_lottie_url(url):
-    r = requests.get(url)
-    if r.status_code != 200:
-        return None
-    return r.json()
-
-lottie_file = load_lottie_url("https://lottie.host/b620043c-0842-4546-8fe5-bf75fdbfeb53/kEO6r3egFH.json")
 
 
 with st.container():
@@ -29,7 +21,7 @@ with st.container():
     st.divider()
     left_column, right_column = st.columns(2)
     with right_column:
-        st_lottie(lottie_file, height=400, key="studyanime")
+        
     with left_column:
         st.subheader("From internships to resources, we have it all!")
         st.write("##")
